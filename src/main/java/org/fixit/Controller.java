@@ -1,16 +1,9 @@
 package org.fixit;
 
-import java.awt.print.Book;
 import java.sql.SQLException;
 
 import com.google.gson.Gson;
 
-import org.fixit.User;
-
-import org.fixit.Request;
-import org.fixit.Request.Header;
-import org.fixit.Response;
-import org.fixit.Server;
 
 public class Controller {
 

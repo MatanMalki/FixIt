@@ -1,6 +1,5 @@
 package org.fixit;
 
-import org.fixit.Server.Request;
 import com.google.gson.Gson;
 
 import java.io.IOException;

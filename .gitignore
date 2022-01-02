@@ -7,13 +7,14 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+*.log
 # AWS User-specific
 .idea/**/aws.xml
 
 # Generated files
+.idea/*
 .idea/**/contentModel.xml
-
+.idea/
 # Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids

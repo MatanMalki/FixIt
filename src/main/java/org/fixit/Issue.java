@@ -1,7 +1,6 @@
 package org.fixit;
 
 
-import Jabiro.Service.JabiroService;
 
 import java.io.File;
 import java.sql.SQLException;
@@ -65,7 +64,7 @@ public class Issue  {
 		this.mSubject=mSubject;
 		this.mSummarry=mSummarry;
 		this.mStatus=Status.UNASSIGNED;
-		this.mAssignedTo=JabiroService.getmInstance().getAdmin();
+		this.mAssignedTo=FixItService.getmInstance().getAdmin();
 		this.mUpdated=new Date();
 		
 		StringBuilder random;
@@ -315,16 +314,16 @@ public class Issue  {
 	{
 		for(Comment c: this.mFlow)
 		{
-			if(JabiroService.getmInstance().search(pat, c.getComment()))
+			if(FixItService.getmInstance().search(pat, c.getComment()))
 			{
 				return this.mId.toString();
 			}
 		}
-		if(JabiroService.getmInstance().search(pat, this.mSubject))
+		if(FixItService.getmInstance().search(pat, this.mSubject))
 		{
 			return this.mId.toString();
 		}
-		if(JabiroService.getmInstance().search(pat, this.mSummarry))
+		if(FixItService.getmInstance().search(pat, this.mSummarry))
 		{
 			return this.mId.toString();
 		}

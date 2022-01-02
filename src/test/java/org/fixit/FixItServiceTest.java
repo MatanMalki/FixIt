@@ -1,22 +1,13 @@
-package org.fixit.;
+package org.fixit;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.sql.SQLException;
 
-import org.fixit.FixItService;
-import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-
-import org.fixit.Comment;
-import org.fixit.Issue;
-import org.fixit.Project;
-import org.fixit.User;
 
 public class FixItServiceTest {
 

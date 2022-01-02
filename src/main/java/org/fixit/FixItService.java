@@ -1,23 +1,9 @@
 package org.fixit;
 
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
-import org.fixit.StringMaching.IAlgoStringMatching;
-import org.fixit.StringMaching.KMP;
-import org.fixit.Comment;
-import org.fixit.Issue;
-import org.fixit.Project;
-import org.fixit.User;
-import org.fixit.clock;
-import org.fixit.IAlgoClock;
-import org.fixit.DaoFileImpl;
-import org.fixit.IDao;
 
 public class FixItService
 {
