@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">הזמן מונית</string>
+    <string name="GetCab">הזמן מונית</string>
+    <string name="button_order_cab">לחץ כאן כדי להזמין מונית</string>
+    <string name="NewOrder">הזמן נסיעה חדשה</string>
+    <string name="RadioButton1">מונית בסיסית(עד 4)</string>
+    <string name="RadioButton2">מונית גדולה(עד 6)</string>
+    <string name="RadioButton3">מונית פרימיום(עד 4)</string>
+    <string name="Catagory1">"בחר בבקשה את סוג המונית "</string>
+    <string name="Next">הבא</string>
+    <string name="Back">הקודם</string>
+    <string name="Thanks">תודה רבה על הזמנתך!</string>
+    <string name="Thanks2">המונית שהזמנת תגיע תוך מספר דקות</string>
+    <string name="RateUs">דרגו אותנו!</string>
+    <string name="Catagory2">הכנס את יעד הנסיעה</string>
+    <string name="Loc1">ראשון לציון</string>
+    <string name="Detail">פרטי ההזמנה</string>
+    <string name="SubBut">שלח</string>
+    <string name="Score">דירוגך יופיע כאן</string>
+    <string name="OrderDetails">פרטי ההזמנה שלך יופיעו פה</string>
+    <string name="Apply">אשר</string>
+    <string name="city">עיר</string>
+    <string name="Rishon.Letzion">ראשון לציון</string>
+    <string name="Holon">חולון</string>
+    <string name="Tel.Aviv">תל אביב</string>
+    <string name="BG">נתב\"ג</string>
+    <string name="Jerusalem">ירושלים</string>
+    <string name="Eilat">אילת</string>
+    <string name="Haifa">חיפה</string>
+    <string name="Ramla">רמלה</string>
+    <string name="Rating">דירגת את האפליקציה:</string>
+</resources>
