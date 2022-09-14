@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.getcab">
+    package="com.example.fixit">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GetCab">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.fixit.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +19,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity"
+        <activity android:name="com.example.fixit.SecondActivity"
             android:label="second activity"/>
 
-        <activity android:name=".ThirdActivity"
+        <activity android:name="com.example.fixit.ThirdActivity"
             android:label="third activity"/>
 
 
