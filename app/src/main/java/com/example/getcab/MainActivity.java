@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button OrderCab = findViewById(R.id.CabOrder);
+        Button OrderCab = findViewById(R.id.FixOrder);
 
         OrderCab.setOnClickListener(new View.OnClickListener() {
             @Override

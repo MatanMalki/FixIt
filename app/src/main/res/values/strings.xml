@@ -1,16 +1,16 @@
 <resources>
-    <string name="app_name">Get Cab</string>
-    <string name="GetCab">Get Cab</string>
-    <string name="button_order_cab">Click Here To Order A Cab</string>
-    <string name="NewOrder">New Cab Order</string>
-    <string name="RadioButton1">Basic Cab (Up To 4)</string>
-    <string name="RadioButton2">Big Cab (Up To 6)</string>
-    <string name="RadioButton3">Premium Cab (Up To 4)</string>
-    <string name="Catagory1">Please Choose Your Cab :</string>
+    <string name="app_name">Fix It</string>
+    <string name="FixIt">Fix-It</string>
+    <string name="button_order_fix">Click Here To Order A Fix</string>
+    <string name="NewOrder">New Fix Order</string>
+    <string name="RadioButton1">Renovation Services</string>
+    <string name="RadioButton2">Plumbing Services</string>
+    <string name="RadioButton3">Electrian Services</string>
+    <string name="Catagory1">Please Choose Your Service :</string>
     <string name="Next">Next</string>
     <string name="Back">Back</string>
     <string name="Thanks">Thank You For Your Order!</string>
-    <string name="Thanks2">Your Cab Will Arrive In Few Minutes</string>
+    <string name="Thanks2">The Professional Will Arrive In Few Minutes</string>
     <string name="RateUs">Rate-Us!</string>
     <string name="Catagory2">Please Enter Location :</string>
     <string name="Loc1">Rishon Letzion</string>
@@ -25,7 +25,7 @@
         <item>@string/Rishon.Letzion</item>
         <item>@string/Holon</item>
         <item>@string/Tel.Aviv</item>
-        <item>@string/BG</item>
+        <item>@string/Ashdod</item>
         <item>@string/Jerusalem</item>
         <item>@string/Eilat</item>
         <item>@string/Haifa</item>
@@ -34,7 +34,7 @@
     <string name="city">Cities</string>
     <string name="Holon">Holon</string>
     <string name="Tel.Aviv">Tel Aviv</string>
-    <string name="BG">BG Airport</string>
+    <string name="Ashdod">Ashdod</string>
     <string name="Jerusalem">Jerusalem</string>
     <string name="Eilat">Eilat</string>
     <string name="Haifa">Haifa</string>

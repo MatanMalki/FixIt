@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">הזמן מונית</string>
-    <string name="GetCab">הזמן מונית</string>
-    <string name="button_order_cab">לחץ כאן כדי להזמין מונית</string>
-    <string name="NewOrder">הזמן נסיעה חדשה</string>
-    <string name="RadioButton1">מונית בסיסית(עד 4)</string>
-    <string name="RadioButton2">מונית גדולה(עד 6)</string>
-    <string name="RadioButton3">מונית פרימיום(עד 4)</string>
-    <string name="Catagory1">"בחר בבקשה את סוג המונית "</string>
+    <string name="app_name">הזמן שירות</string>
+    <string name="FixIt">הזמן שירות</string>
+    <string name="button_order_fix">לחץ כאן כדי להזמין שירות</string>
+    <string name="NewOrder">הזמן שירות תיקונים</string>
+    <string name="RadioButton1">שירותי שיפוצים</string>
+    <string name="RadioButton2">שירותי שרברבות</string>
+    <string name="RadioButton3">שירותי חשמלאות</string>
+    <string name="Catagory1">"בחר בבקשה את סוג השירות "</string>
     <string name="Next">הבא</string>
     <string name="Back">הקודם</string>
     <string name="Thanks">תודה רבה על הזמנתך!</string>
-    <string name="Thanks2">המונית שהזמנת תגיע תוך מספר דקות</string>
+    <string name="Thanks2">בעל המקצוע שהזמנת יגיע תוך מספר דקות</string>
     <string name="RateUs">דרגו אותנו!</string>
-    <string name="Catagory2">הכנס את יעד הנסיעה</string>
+    <string name="Catagory2">הכנס את מקום מגוריך</string>
     <string name="Loc1">ראשון לציון</string>
     <string name="Detail">פרטי ההזמנה</string>
     <string name="SubBut">שלח</string>
@@ -24,7 +24,7 @@
     <string name="Rishon.Letzion">ראשון לציון</string>
     <string name="Holon">חולון</string>
     <string name="Tel.Aviv">תל אביב</string>
-    <string name="BG">נתב\"ג</string>
+    <string name="Ashdod">אשדוד</string>
     <string name="Jerusalem">ירושלים</string>
     <string name="Eilat">אילת</string>
     <string name="Haifa">חיפה</string>

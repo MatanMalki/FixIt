@@ -18,8 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/anton"
-        android:text="@string/GetCab"
-        android:textColor="@color/black"
+        android:text="@string/FixIt"
+        android:textColor="@color/white"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,22 +28,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintVertical_bias="0.359"
+        tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/CabOrder"
+        android:id="@+id/FixOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/dancing"
-        android:text="@string/button_order_cab"
+        android:text="@string/button_order_fix"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.423"
+        app:layout_constraintVertical_bias="0.855"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp" />
-
+        tools:layout_editor_absoluteX="45dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
