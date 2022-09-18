@@ -17,10 +17,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/anton"
+        android:fontFamily="@font/freshsteak"
         android:text="@string/FixIt"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="70sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359"
+        app:layout_constraintVertical_bias="0.229"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -37,6 +37,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/dancing"
         android:text="@string/button_order_fix"
+        android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
