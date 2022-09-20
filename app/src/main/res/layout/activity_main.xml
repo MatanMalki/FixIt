@@ -35,7 +35,7 @@
         android:id="@+id/FixOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/dancing"
+        android:fontFamily="@font/moneywise"
         android:text="@string/button_order_fix"
         android:textColor="@color/black"
         android:textSize="22sp"

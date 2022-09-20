@@ -38,8 +38,8 @@
         android:layout_height="37dp"
         android:text="@string/Catagory1"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:fontFamily="@font/anton"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.657"
@@ -64,6 +64,7 @@
             android:layout_height="wrap_content"
             android:text="@string/RadioButton2"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="17sp" />
 
         <RadioButton
@@ -72,6 +73,7 @@
             android:layout_height="wrap_content"
             android:text="@string/RadioButton3"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="17sp" />
 
         <RadioButton
@@ -80,6 +82,7 @@
             android:layout_height="wrap_content"
             android:text="@string/RadioButton1"
             android:textColor="@color/white"
+            android:textStyle="bold"
             android:textSize="17sp" />
 
     </RadioGroup>
@@ -89,8 +92,8 @@
         android:layout_height="37dp"
         android:text="@string/Catagory2"
         android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="22sp"
+        android:fontFamily="@font/anton"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.634"
@@ -102,11 +105,12 @@
         android:id="@+id/Back"
         android:layout_width="146dp"
         android:layout_height="50dp"
-        android:fontFamily="@font/dancing"
+        android:fontFamily="@font/moneywise"
         android:text="@string/Back"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/black"
+        android:background="@color/yellow_500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.06"
@@ -118,11 +122,12 @@
         android:id="@+id/Next"
         android:layout_width="146dp"
         android:layout_height="50dp"
-        android:fontFamily="@font/dancing"
+        android:fontFamily="@font/moneywise"
         android:text="@string/Next"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/black"
+        android:background="@color/yellow_500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.939"

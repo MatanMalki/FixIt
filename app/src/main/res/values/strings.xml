@@ -14,16 +14,16 @@
     <string name="Thanks2">The Professional Will Arrive In Few Minutes</string>
     <string name="RateUs">Rate-Us!</string>
     <string name="Catagory2">Please Enter Location :</string>
-    <string name="Loc1">Rishon Letzion</string>
+    <string name="Loc1">Rishon Lezion</string>
     <string name="Detail">"Order Details : "</string>
     <string name="SubBut">Submit</string>
     <string name="Score">Your Rating Will Appear Here</string>
     <string name="OrderDetails">Your Order Details Will Show Up Here</string>
     <string name="Apply">Apply</string>
-    <string name="Rishon.Letzion">Rishon Letzion</string>
+    <string name="Rishon.Lezion">Rishon Lezion</string>
 
     <string-array name="city">
-        <item>@string/Rishon.Letzion</item>
+        <item>@string/Rishon.Lezion</item>
         <item>@string/Holon</item>
         <item>@string/Tel.Aviv</item>
         <item>@string/Ashdod</item>
