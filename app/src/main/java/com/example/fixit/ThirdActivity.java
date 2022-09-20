@@ -1,7 +1,9 @@
 package com.example.fixit;
 
+
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,29 +15,24 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 public class ThirdActivity extends Activity {
 
-    TextView textView;
+    Button callBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_activity);
 
-        textView = findViewById(R.id.textView);
-        // Time is in millisecond so 50sec = 50000 I have used
-        // countdown Interveal is 1sec = 1000 I have used
-        new CountDownTimer(600000, 1000) {
-            public void onTick(long millisUntilFinished) {
-                // Used for formatting digit to be in 2 digits only
-                NumberFormat f = new DecimalFormat("00");
-                long hour = (millisUntilFinished / 3600000) % 24;
-                long min = (millisUntilFinished / 60000) % 60;
-                long sec = (millisUntilFinished / 1000) % 60;
-                textView.setText(f.format(hour) + ":" + f.format(min) + ":" + f.format(sec));
+        callBtn = findViewById(R.id.call);
+
+        callBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel: 123456789"));
+                startActivity(intent);
             }
-            // When the task is over it will print 00:00:00 there
-            public void onFinish() {
-                textView.setText("00:00:00");
-            }
-        }.start();
+        });
+
+
 
         final RatingBar ratingBar = (RatingBar) findViewById(R.id.ratingBar);
         Button submit = (Button) findViewById(R.id.submit);

@@ -22,7 +22,7 @@
         android:fontFamily="@font/anton"
         android:text="@string/Thanks"
         android:textColor="@color/white"
-        android:textSize="35sp"
+        android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,8 @@
         android:layout_height="wrap_content"
         android:text="@string/Thanks2"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:fontFamily="@font/anton"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
@@ -47,20 +48,16 @@
         app:layout_constraintVertical_bias="0.197"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/call"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="TextView"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        android:background="@color/yellow_500"
+        android:text="Call Now"
+        android:textColor="@android:color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="295dp" />
 
     <TextView
         android:id="@+id/textView4"
