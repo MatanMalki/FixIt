@@ -27,7 +27,7 @@ public class ThirdActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel: 123456789"));
+                intent.setData(Uri.parse("tel: 0545381648"));
                 startActivity(intent);
             }
         });

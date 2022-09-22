@@ -36,9 +36,9 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
         android:text="@string/Thanks2"
         android:textColor="@color/white"
-        android:fontFamily="@font/anton"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,11 +53,11 @@
         android:layout_width="170dp"
         android:layout_height="60dp"
         android:layout_marginStart="120dp"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="276dp"
         android:background="@mipmap/callnow"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView4"
@@ -91,20 +91,19 @@
 
     <Button
         android:id="@+id/submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
         android:background="@color/yellow_500"
         android:fontFamily="@font/moneywise"
         android:text="@string/SubBut"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.726"
-        tools:ignore="MissingConstraints"></Button>
+        app:layout_constraintVertical_bias="0.732" />
 
     <TextView
         android:id="@+id/SubmitText"
@@ -130,19 +129,24 @@
         android:fontFamily="@font/moneywise"
         android:text="@string/Back"
         android:textColor="@color/black"
-        android:textSize="16dp"
+        android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.879" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="80dp"
-        android:layout_height="72dp"
-        app:srcCompat="@mipmap/contact"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="188dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="86dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="163dp"
+        android:background="@mipmap/contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
