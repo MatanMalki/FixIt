@@ -13,7 +13,24 @@ import android.os.CountDownTimer;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.Random;
+
 public class ThirdActivity extends Activity {
+
+
+    public static String generateNumber()
+    {
+        Random rnd = new Random();
+        int[] prefixDigits = new int[]{0,2,4};
+        String s = "05";
+        // Generate Prefix Digit
+        s += prefixDigits[rnd.nextInt(prefixDigits.length)];
+        for(int i=1;i<=7;i++) {
+            s += rnd.nextInt(10);
+        }
+        return s;
+    }
+
 
     Button callBtn;
     @Override
@@ -21,13 +38,16 @@ public class ThirdActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_activity);
 
+
+
         callBtn = findViewById(R.id.call);
 
         callBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel: 0545381648"));
+                String num = generateNumber();
+                intent.setData(Uri.parse("tel:" + num));
                 startActivity(intent);
             }
         });
@@ -60,5 +80,6 @@ public class ThirdActivity extends Activity {
 
 
     }
+
 
 }
